@@ -1,0 +1,90 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="email-svgrepo-com">
+    <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="3" y="5" width="18" height="14" rx="2" stroke="#000000" stroke-width="2" stroke-linecap="round"></rect>
+  </symbol>
+  <symbol fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu-svgrepo-com">
+    <path fill="currentColor" d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="menu-alt-05-svgrepo-com">
+    <g id="Menu / Menu_Alt_05">
+      <path id="Vector" d="M5 17H13M5 12H19M11 7H19" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="phone-svgrepo-com">
+    <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mechanic-garage-svgrepo-com">
+    <path fill="currentColor" d="M426.24 30c-13.635.02-38.617 9.837-47.707 20H68.24c-32 0-32 64 0 64h310.301c9.088 10.16 34.067 19.978 47.7 20 17.123-.025 32.937-13.17 41.5-28h-39.5l-22-24 22-24h39.519c-8.565-14.835-24.39-27.982-41.52-28zm-342 36c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.836 0-16-7.163-16-16s7.164-16 16-16zm75.77 117c-8 0-13.83 4.038-20.166 8.813-6.336 4.774-12.98 10.944-20.041 17.67-13.752 13.096-29.103 28.29-43.608 38.218l45.407 1.135c11.17-20.948 18.277-40.386 38.408-47.836h71v50.572l18 .45V201h23c11.5 0 30.948 10.484 50.377 26.027 10.483 8.387 21.064 18.01 31.117 27.608l49.611 1.24 49.729-58.018-13.668-11.714-59.237 69.109c-13.952-13.825-29.952-29.196-46.306-42.28C313.06 196.517 292.51 183 272.01 183h-112zM47.986 265.004c-4.995.008-11.034 2.78-15.613 7.36C27.787 276.948 25.01 283 25.01 288c0 13 7.276 32.26 16.633 47.23 4.355 6.97 9.123 13.056 13.38 17.313-.001-.182-.013-.36-.013-.543 0-31.374 25.626-57 57-57 31.373 0 57 25.626 57 57 0 2.37-.163 4.704-.447 7h190.894a56.952 56.952 0 0 1-.447-7c0-31.374 25.626-57 57-57 31.373 0 57 25.626 57 57 0 2.37-.163 4.704-.447 7h9.392l5.035-45.326c-.106-12.823-6.276-21.985-14.603-28.647-8.4-6.72-19.377-10.027-24.377-10.027h-.114l-399.91-9.996zM112.01 313c-21.646 0-39 17.354-39 39s17.354 39 39 39c21.645 0 39-17.354 39-39s-17.355-39-39-39zm304 0c-21.646 0-39 17.354-39 39s17.354 39 39 39c21.645 0 39-17.354 39-39s-17.355-39-39-39zm-215 64v14h110v-14h-110zm48 32v46h14v-46h-14zm-35.438 64l-7 14h98.875l-7-14h-84.875z"></path>
+  </symbol>
+  <symbol fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" xml:space="preserve" viewBox="0 0 24 24" id="user-expert-svgrepo-com">
+    <g id="user-expert">
+      <path d="M2,19c0-3.9,3.1-7,7-7c2.5,0,4.8,1.3,6.1,3.5l1.7-1c-1-1.7-2.5-3-4.2-3.7C14.1,9.7,15,7.9,15,6c0-3.3-2.7-6-6-6S3,2.7,3,6
+		c0,1.9,0.9,3.7,2.4,4.8C2.2,12.2,0,15.3,0,19v5h12v-2H2V19z M5,6c0-2.2,1.8-4,4-4s4,1.8,4,4s-1.8,4-4,4S5,8.2,5,6z"></path>
+      <path d="M24.1,15.8l-7.6,7.6l-4.7-4.7l1.4-1.4l3.3,3.3l6.2-6.2L24.1,15.8z"></path>
+    </g>
+  </symbol>
+  <symbol id="squarehome2-svgrepo-com" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+    <defs></defs>
+    <rect id="b" x="5.5" y="5.5" width="23" height="11"></rect>
+    <rect id="c" x="19.5" y="31.5" width="23" height="11"></rect>
+    <rect id="d" x="31.5" y="5.5" width="11" height="23"></rect>
+    <rect id="e" x="5.5" y="19.5" width="11" height="23"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="whatsapp-svgrepo-com">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="wrench-svgrepo-com">
+    <path d="M10 3.5L13.0581 0.441881C12.4304 0.15802 11.7337 0 11 0C8.23858 0 6 2.23858 6 5C6 5.45802 6.06158 5.90165 6.17692 6.32308L0 12.5L3.5 16L9.67692 9.82308C10.0983 9.93842 10.542 10 11 10C13.7614 10 16 7.76142 16 5C16 4.26633 15.842 3.56956 15.5581 2.94188L12.5 6H10V3.5Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="currentColor" version="1.1" id="connected-svgrepo-com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 278.898 278.898">
+    <g>
+      <path d="M269.898,175.773h-20.373V64.751c0-4.971-4.029-9-9-9h-62.702V35.377c0-4.971-4.029-9-9-9h-58.748c-4.971,0-9,4.029-9,9
+		v20.374H38.373c-4.971,0-9,4.029-9,9v111.022H9c-4.971,0-9,4.029-9,9v58.748c0,4.971,4.029,9,9,9h58.747c4.971,0,9-4.029,9-9
+		v-58.748c0-4.971-4.029-9-9-9H47.373V73.751h53.702v20.374c0,4.971,4.029,9,9,9h20.374v72.648h-20.374c-4.971,0-9,4.029-9,9v58.748
+		c0,4.971,4.029,9,9,9h58.748c4.971,0,9-4.029,9-9v-58.748c0-4.971-4.029-9-9-9h-20.374v-72.648h20.374c4.971,0,9-4.029,9-9V73.751
+		h53.702v102.022h-20.374c-4.971,0-9,4.029-9,9v58.748c0,4.971,4.029,9,9,9h58.747c4.971,0,9-4.029,9-9v-58.748
+		C278.898,179.803,274.869,175.773,269.898,175.773z M58.747,234.521H18v-40.748h40.747V234.521z M159.823,234.521h-40.748v-40.748
+		h40.748V234.521z M159.823,85.125h-40.748V44.377h40.748V85.125z M260.898,234.521h-40.747v-40.748h40.747V234.521z"></path>
+    </g>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="check-svgrepo-com">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0303 8.78039L8.99993 16.8107L5.4696 13.2804L6.53026 12.2197L8.99993 14.6894L15.9696 7.71973L17.0303 8.78039Z" fill="#080341"></path>
+  </symbol>
+  <symbol xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsCc="http://creativecommons.org/ns#" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="favicon" inkscapeVersion="1.0.1 (c497b03c, 2020-09-10)" sodipodiDocname="wezterm-icon.svg" inkscapeExportFilename="/Users/wez/Documents/wezterm-icon.png" inkscapeExportXdpi="59.112728" inkscapeExportYdpi="59.112728" viewBox="0 0 55.010814 55">
+    <defs id="defs2">
+      <linearGradient inkscapeCollect="always" id="linearGradient1113">
+        <stop offset="0" id="stop1109"></stop>
+        <stop offset="1" id="stop1111"></stop>
+      </linearGradient><inkscape:path-effect effect="fillet_chamfer" id="path-effect943" is_visible="true" lpeversion="1" satellites_param="F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1" unit="px" method="auto" mode="F" radius="10" chamfer_steps="1" flexible="false" use_knot_distance="true" apply_no_radius="true" apply_with_radius="true" only_selected="false" hide_knots="false"></inkscape:path-effect><inkscape:path-effect effect="fillet_chamfer" id="path-effect939" is_visible="true" lpeversion="1" satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1" unit="px" method="auto" mode="C" radius="10" chamfer_steps="1" flexible="false" use_knot_distance="true" apply_no_radius="true" apply_with_radius="true" only_selected="true" hide_knots="false"></inkscape:path-effect><inkscape:path-effect effect="fillet_chamfer" id="path-effect934" is_visible="true" lpeversion="1" satellites_param="F,1,0,1,0,0.1,0,1 @ F,1,0,1,0,0.1,0,1 @ F,1,0,1,0,0.1,0,1 @ F,1,0,1,0,0.1,0,1" unit="px" method="auto" mode="F" radius="10" chamfer_steps="1" flexible="true" use_knot_distance="true" apply_no_radius="true" apply_with_radius="true" only_selected="false" hide_knots="false"></inkscape:path-effect>
+      <linearGradient inkscapeCollect="always" id="linearGradient905">
+        <stop offset="0" id="stop901"></stop>
+        <stop offset="1" id="stop903"></stop>
+      </linearGradient><inkscape:path-effect effect="fillet_chamfer" id="path-effect3137" is_visible="true" lpeversion="1" satellites_param="F,1,0,1,0,0.1,0,1 @ F,1,0,1,0,0.1,0,1 @ F,1,0,1,0,0.1,0,1 @ F,1,0,1,0,0.1,0,1" unit="px" method="auto" mode="F" radius="10" chamfer_steps="1" flexible="true" use_knot_distance="true" apply_no_radius="true" apply_with_radius="true" only_selected="false" hide_knots="false"></inkscape:path-effect><inkscape:path-effect effect="fillet_chamfer" id="path-effect2756" is_visible="true" lpeversion="1" satellites_param="F,1,0,1,0,0.2,0,1 @ F,1,0,1,0,0.2,0,1 @ F,1,0,1,0,0.2,0,1 @ F,1,0,1,0,0.2,0,1" unit="px" method="auto" mode="F" radius="20" chamfer_steps="1" flexible="true" use_knot_distance="true" apply_no_radius="true" apply_with_radius="true" only_selected="false" hide_knots="false"></inkscape:path-effect>
+      <linearGradient inkscapeCollect="always" xlink:href="#linearGradient905" id="linearGradient907" x1="39.079655" y1="72.459702" x2="90.17334" y2="72.459702" gradientUnits="userSpaceOnUse"></linearGradient>
+      <linearGradient inkscapeCollect="always" xlink:href="#linearGradient1113" id="linearGradient1115" x1="66.095612" y1="43.676846" x2="66.095612" y2="98.112801" gradientUnits="userSpaceOnUse"></linearGradient>
+    </defs>
+    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscapePageopacity="0.0" inkscapePageshadow="2" inkscapeZoom="2.8190618" inkscapeCx="85.466562" inkscapeCy="106.8872" inkscapeDocumentUnits="mm" inkscapeCurrentLayer="layer1" inkscapeDocumentRotation="0" showgrid="false" inkscapeWindowWidth="1252" inkscapeWindowHeight="847" inkscapeWindowX="54" inkscapeWindowY="25" inkscapeWindowMaximized="0" fitMarginTop="0" fitMarginLeft="0" fitMarginRight="0" fitMarginBottom="0"></sodipodi:namedview>
+    <metadata id="metadata5">
+      <rdf:RDF>
+        <cc:Work rdfAbout="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdfResource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+          <dc:title></dc:title>
+          <dc:creator>
+            <cc:Agent>
+              <dc:title>Wez Furlong</dc:title>
+            </cc:Agent>
+          </dc:creator>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+    <g inkscapeLabel="Layer 1" inkscapeGroupmode="layer" id="layer1" transform="translate(-37.656612,-43.207115)">
+      <path id="rect10" width="55" height="55" x="37.656612" y="43.207115" sodipodiType="rect" d="m 48.656612,43.207115 h 33 a 11,11 45 0 1 11,11 v 33 a 11,11 135 0 1 -11,11 h -33 a 11,11 45 0 1 -11,-11 v -33 a 11,11 135 0 1 11,-11 z" inkscapePathEffect="#path-effect2756"></path>
+      <g aria-label="$W" id="text3144" transform="matrix(0.84051205,0,0,0.84423619,11.628829,8.3486634)">
+        <path d="m 47.07925,66.906972 c 0,-1.247423 1.247423,-2.015068 4.270024,-2.015068 l -1.007534,5.517447 c -1.871134,-1.247423 -3.26249,-2.39889 -3.26249,-3.502379 z m 8.06027,13.625694 c 0,1.295401 -1.295401,2.159001 -4.270024,2.302935 l 1.055511,-5.853292 c 1.871135,1.247423 3.214513,2.350912 3.214513,3.550357 z m -5.277558,11.99445 0.911578,-5.421491 c 7.244648,-0.67169 10.075338,-3.598335 10.075338,-6.812848 0,-3.310468 -4.030135,-5.901269 -7.724426,-8.156225 l 1.343379,-7.100715 c 1.535289,0.143934 3.358446,0.431801 5.517447,0.863601 l 0.623711,-4.941713 C 58.977744,60.717836 57.442454,60.62188 56.00312,60.525924 l 1.10349,-5.277558 -4.749802,-0.04798 -0.911579,5.373513 c -7.244647,0.575734 -10.075337,3.598335 -10.075337,6.812847 0,3.262491 4.030135,5.757336 7.724425,7.916337 l -1.343378,7.436559 c -1.727201,-0.09596 -3.838224,-0.383822 -6.285092,-0.815623 l -0.959556,4.941714 c 2.063046,0.239889 3.982158,0.383822 5.709358,0.4318 l -1.055511,5.181602 z" id="path854"></path>
+        <path d="m 81.132992,88.73687 h 5.373513 c 0.671689,-5.613403 1.631245,-16.936163 2.254957,-29.746235 h -5.133625 c -0.143933,3.022601 -0.671689,21.014275 -0.8636,22.501587 h -0.143934 c -1.2954,-4.845757 -2.350912,-8.779937 -3.646312,-13.577717 h -2.926646 c -1.247423,4.79778 -2.111023,8.396115 -3.406424,13.577717 H 72.44901 C 72.305077,80.00491 71.489454,62.013236 71.393499,58.990635 h -5.325536 c 0.623711,12.810072 1.53529,24.132832 2.206979,29.746235 H 73.5525 l 3.69429,-14.249406 z" id="path856"></path>
+      </g>
+    </g>
+  </symbol>
+</svg>
