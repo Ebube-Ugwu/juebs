@@ -11,5 +11,5 @@ function initializeCollapsibles () {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-	initializeCollapsibles();
+	// initializeCollapsibles();
 })
