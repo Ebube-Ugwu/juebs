@@ -264,11 +264,11 @@ template {
 
 @font-face {
   font-family: "inter";
-  src: url("fonts/inter/Inter-VariableFont_slnt,wght.ttf");
+  src: url("../fonts/inter/Inter-VariableFont.ttf");
 }
 @font-face {
   font-family: "montserrat";
-  src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: "montserrat-bold";
@@ -347,7 +347,8 @@ nav .icon {
 }
 
 .collapsible--expanded .nav__toggler {
-  box-shadow: 0 2px 2px 3px #211;
+  border-radius: 5px;
+  box-shadow: 0 0.5px 5px 1.5px #fff;
 }
 
 @media screen and (min-width: 1024px) {

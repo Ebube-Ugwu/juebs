@@ -25,12 +25,12 @@ $gradient-primary: linear-gradient(
 
 @font-face {
     font-family: "inter";
-    src: url("fonts/inter/Inter-VariableFont_slnt\,wght.ttf");
+    src: url("../fonts/inter/Inter-VariableFont.ttf");
 }
 
 @font-face {
     font-family: "montserrat";
-    src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 @font-face {
@@ -78,6 +78,7 @@ nav .icon {
 	margin: 0;
 }
 
+// for the current navigation link
 .nav--active {
 	font-weight: 900;
 	color: $color-accent;
@@ -116,7 +117,8 @@ nav .icon {
 }
 
 .collapsible--expanded .nav__toggler {
-	box-shadow: 0 2px 2px 3px #211;
+	border-radius: 5px;
+	box-shadow: 0 .5px 5px 1.5px #fff;
 }
 
 
