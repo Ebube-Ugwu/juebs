@@ -676,6 +676,23 @@ a {
 	margin-left: 5px;
 }
 
+
+// Divider 
+.divider {
+	width: 4%;
+	border: 5px dotted $color-primary;
+	border-bottom: none;
+	opacity: .4;
+	transition: width .3s, opacity .3s;
+}
+
+.divider:hover {
+	width: 15%;
+	opacity: .1;
+}
+
+
+
 // Miscellaneous
 .container--column {
 	display: flex;

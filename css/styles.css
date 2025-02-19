@@ -860,6 +860,19 @@ a {
   margin-left: 5px;
 }
 
+.divider {
+  width: 4%;
+  border: 5px dotted #010324;
+  border-bottom: none;
+  opacity: 0.4;
+  transition: width 0.3s, opacity 0.3s;
+}
+
+.divider:hover {
+  width: 15%;
+  opacity: 0.1;
+}
+
 .container--column {
   display: flex;
   flex-direction: column;
