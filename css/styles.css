@@ -902,4 +902,51 @@ a {
   flex-shrink: 0;
 }
 
+.cng-hero {
+  background: linear-gradient(125deg, hsl(240, 100%, 9%) 0%, hsl(241, 98%, 9%) 17%, hsl(242, 96%, 9%) 31%, hsl(243, 94%, 10%) 42%, hsl(244, 92%, 11%) 52%, hsl(245, 89%, 11%) 61%, hsl(246, 90%, 12%) 69%, hsl(247, 92%, 12%) 76%, hsl(249, 90%, 12%) 83%, hsl(250, 98%, 10%) 89%, hsl(254, 100%, 10%) 95%, hsl(254, 100%, 10%) 100%);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 4rem;
+  color: #fdffde;
+}
+
+.cng-hero__img {
+  width: 100%;
+  height: 100%;
+}
+
+.cng-hero__text {
+  padding: 0 1.5rem;
+  margin: 0;
+}
+
+.cng-hero .subheader {
+  font-size: 2.4rem;
+  margin: 0;
+  text-align: left;
+}
+
+.cng-hero .body-text {
+  color: #fdffde;
+}
+
+.cng-hero .btn::after {
+  content: "->";
+  transition: margin-left 0.3s ease;
+}
+
+.cng-hero .btn:hover::after {
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cng-hero .img-clip--rounded {
+    width: 40%;
+  }
+  .cng-hero .btn {
+    margin-top: 5rem;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

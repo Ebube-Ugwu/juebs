@@ -723,3 +723,53 @@ a {
 	flex-shrink: 0;
 }
 
+
+// CNG Hero Section
+.cng-hero {
+	background: $gradient-primary;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	padding: 4rem;
+	color: $color-body;
+}
+
+.cng-hero__img {
+	width: 100%;
+	height: 100%;
+}
+
+.cng-hero__text {
+	padding: 0 1.5rem;
+	margin: 0;	
+}
+
+.cng-hero .subheader {
+	font-size: 2.4rem;
+	margin: 0;
+	text-align: left;
+}
+
+.cng-hero .body-text {
+	color: $color-body;
+}
+
+
+.cng-hero .btn::after {
+	content: "->";
+	transition: margin-left .3s ease;
+}
+
+.cng-hero .btn:hover::after {
+	margin-left: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+	.cng-hero .img-clip--rounded {
+		width: 40%;
+	}
+
+	.cng-hero .btn {
+		margin-top: 5rem;
+	}
+}
