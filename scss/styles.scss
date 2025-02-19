@@ -19,7 +19,6 @@ $gradient-primary: linear-gradient(
 		    hsl(254deg 100% 10%) 100%
 		    );
 
-
 *,*::before,*::after {
     box-sizing: border-box;
 }
@@ -550,6 +549,54 @@ a {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
+
+
+// Accordions
+.accordion__container {
+	background-color: $color-primary;
+	padding: 2.5rem;
+
+}
+
+.accordion {
+	padding: 2rem;
+	background-color: lighten($color-primary, 2%);
+	color: $color-body;
+	margin: 1.5rem 0;
+	display: flex;
+	box-shadow: 0 0 4px 1px #black;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.accordion__header {
+	text-transform: capitalize;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: $color-body;
+}
+
+.accordion__body {
+	font-size: 1.2rem;
+	color: $color-body;
+	width: 100%;
+	opacity: .7;
+	margin: 0;
+}
+
+.accordion__chevron {
+	opacity: .5;
+	font-weight: 500;
+	transform: rotate(-45deg);
+	transition: opacity .3s ease, transform .3s;
+}
+
+.collapsible--expanded .accordion__chevron {
+	opacity: .9;
+	transform: rotate(0deg);
+}
+
 
 
 
