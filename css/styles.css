@@ -655,6 +655,45 @@ a {
     font-size: 1.6rem;
   }
 }
+.btn {
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 1px 4px 1px #333;
+  color: linear-gradient(125deg, hsl(240, 100%, 9%) 0%, hsl(241, 98%, 9%) 17%, hsl(242, 96%, 9%) 31%, hsl(243, 94%, 10%) 42%, hsl(244, 92%, 11%) 52%, hsl(245, 89%, 11%) 61%, hsl(246, 90%, 12%) 69%, hsl(247, 92%, 12%) 76%, hsl(249, 90%, 12%) 83%, hsl(250, 98%, 10%) 89%, hsl(254, 100%, 10%) 95%, hsl(254, 100%, 10%) 100%);
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+  outline: 0;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover,
+.btn:active {
+  transform: scale(1.01);
+}
+
+.btn--rounded {
+  border-radius: 100px;
+}
+
+.btn--accent {
+  background-color: #ffec82;
+  transition: background-color 0.3s ease;
+}
+
+.btn--accent:hover,
+.btn--accent:active {
+  background-color: rgb(255, 231.3488, 99.4);
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.3rem;
+  }
+}
 .container--column {
   display: flex;
   flex-direction: column;

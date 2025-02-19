@@ -456,6 +456,47 @@ a {
 }
 
 
+// Buttons
+.btn {
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 0 1px 4px 1px #333;
+	color: $gradient-primary;
+	display: inline-block;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin: 0;
+	outline: 0;
+	padding: 1rem 2rem;
+	text-transform: capitalize;
+	transition: transform .3s ease;
+}
+
+.btn:hover,
+.btn:active {
+	transform: scale(1.01);
+}
+
+.btn--rounded {
+	border-radius: 100px;
+}
+
+.btn--accent {
+	background-color: $color-accent;
+	transition: background-color .3s ease;
+}
+
+.btn--accent:hover,
+.btn--accent:active {
+	background-color: darken($color-accent, 6%);
+}
+
+@media  screen and (min-width: 1024px) {
+	.btn {
+		font-size: 1.3rem;
+	}	
+}
+
 
 // Miscellaneous
 .container--column {
