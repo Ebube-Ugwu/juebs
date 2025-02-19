@@ -498,6 +498,38 @@ a {
 }
 
 
+// Text
+.subheader {
+	color: $gradient-primary;
+	text-transform: capitalize;
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+.body-text {
+	color: $color-primary;
+	opacity: .8;
+	font-size: 1.4rem;	
+}
+
+@media screen and (min-width: 1024px) {
+	.subheader {
+		font-size: 2.6rem;
+	}
+
+	.body-text {
+		font-size: 1.6rem;
+	}
+}
+
+
+// Boxes
+.box {
+	
+}
+
+
+
 // Miscellaneous
 .container--column {
 	display: flex;
