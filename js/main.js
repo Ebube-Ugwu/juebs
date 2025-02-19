@@ -17,10 +17,17 @@ function initializeCollapsibles () {
 
 
 	toggleCollapsibles();
-	// navToggler.addEventListener("click", toggleNav);	
+	navToggler.addEventListener("click", toggleNav);	
 }
 
 
+function initializeCopyright() {
+	const currentYear = new Date().getFullYear();
+	const copyright = document.querySelector(".copyright");
+	copyright.innerText = copyright.innerText + currentYear;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-	initializeCollapsibles();
+	// initializeCollapsibles();
+	initializeCopyright();
 })
