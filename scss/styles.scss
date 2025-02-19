@@ -49,6 +49,8 @@ html {
 
 body {
     color: $color-body;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%237a6a95' fill-opacity='0.03'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	background-size: 70px;
     font-family: "inter", Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
@@ -264,7 +266,53 @@ a {
 }
 
 .hero-block__container--gradient {
+	position: relative;
 	background: $gradient-primary;
+}
+
+.hero-block__container--gradient::before {
+	position: absolute;
+	display: block;
+	content: "";
+	background-image:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2353436d' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	background-size: 50px;
+	width: 100%;
+	height: 100%;;
+	opacity: .2;
+}
+// background-color: #DFDBE5;
+// background-color: #DFDBE5;
+
+
+.hero-block__container--bg-image {
+	background-image: url("../images/mechanic-hand-2.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.hero-block__container--bg-image::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .6;
+	transition: opacity .3s ease;
+}
+
+.hero-block__container--bg-image:hover::before {
+	opacity: .9;
+}
+
+.hero-block__container--bg-image .hero-block__header {
+	color: $color-body;
+	z-index: 2;
+}
+
+.hero-block__container--bg-image .hero-block__body {
+	color: $color-body;
+	opacity: .7;
+	z-index: 1;
 }
 
 .hero-block__container--rounded {
