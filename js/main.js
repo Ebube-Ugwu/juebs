@@ -16,8 +16,8 @@ function initializeCollapsibles () {
 	}
 
 
-	toggleCollapsibles();
 	navToggler.addEventListener("click", toggleNav);	
+	toggleCollapsibles();
 }
 
 
@@ -28,6 +28,6 @@ function initializeCopyright() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	// initializeCollapsibles();
+	initializeCollapsibles();
 	initializeCopyright();
 })

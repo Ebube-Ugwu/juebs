@@ -290,6 +290,11 @@ body {
   margin: 0;
 }
 
+section {
+  width: 90%;
+  margin: 2rem auto;
+}
+
 nav {
   background: linear-gradient(125deg, hsl(240, 100%, 9%) 0%, hsl(241, 98%, 9%) 17%, hsl(242, 96%, 9%) 31%, hsl(243, 94%, 10%) 42%, hsl(244, 92%, 11%) 52%, hsl(245, 89%, 11%) 61%, hsl(246, 90%, 12%) 69%, hsl(247, 92%, 12%) 76%, hsl(249, 90%, 12%) 83%, hsl(250, 98%, 10%) 89%, hsl(254, 100%, 10%) 95%, hsl(254, 100%, 10%) 100%);
   display: flex;
@@ -313,8 +318,8 @@ nav .icon {
 }
 
 .nav--active {
-  font-weight: 900;
-  color: #ffec82;
+  font-weight: 600 !important;
+  color: #ffec82 !important;
 }
 
 .nav__toggler {
@@ -333,6 +338,7 @@ nav .icon {
 
 .nav-list__item {
   text-transform: capitalize;
+  color: #fdffde;
   font-weight: 400;
   opacity: 0.8;
   font-size: 1.4rem;
@@ -478,15 +484,16 @@ a {
 }
 
 .hero-block__container {
-  display: flex;
-  margin: 3rem;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  color: #fdffde;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  margin: 3rem;
   padding: 2rem 4rem;
   text-align: center;
-  color: #fdffde;
-  height: 50vh;
+  width: 90%;
 }
 
 .hero-block__container--gradient {
@@ -592,7 +599,7 @@ a {
 
 .media--row {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: start;
   padding: 0.5rem 1.5rem;
 }
@@ -622,6 +629,7 @@ a {
   flex-shrink: 0;
   height: auto;
   object-fit: coveer;
+  margin: 0;
 }
 
 .media__img--rounded {
@@ -699,6 +707,7 @@ a {
   text-transform: capitalize;
   font-size: 2.4rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .body-text {
@@ -715,6 +724,15 @@ a {
     font-size: 1.6rem;
   }
 }
+.box__container {
+  background-color: rgb(255, 246.0776, 196.3);
+  text-align: center;
+  box-shadow: 0 0 5px 1px #aaa;
+  padding: 2rem;
+  width: 90%;
+  margin: 2rem 0;
+}
+
 .box {
   background-color: #010324;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%237a6a95' fill-opacity='0.03'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -866,6 +884,7 @@ a {
   border-bottom: none;
   opacity: 0.4;
   transition: width 0.3s, opacity 0.3s;
+  margin: 5rem auto;
 }
 
 .divider:hover {
@@ -884,6 +903,16 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--column {
+  flex-direction: column;
 }
 
 .hidden {
@@ -946,6 +975,37 @@ a {
   }
   .cng-hero .btn {
     margin-top: 5rem;
+  }
+}
+.contact-text {
+  color: #010324;
+  text-transform: capitalize;
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-left: 10px;
+  margin-top: 2rem;
+}
+
+.contact-info .icon {
+  width: 13px;
+}
+
+.contact-info .icon-container {
+  width: 15px;
+  height: 15px;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-text {
+    font-size: 1.8rem;
+  }
+  .contact-info .icon {
+    width: 30px;
+  }
+  .contact-info .icon-container {
+    width: 45px;
+    height: 45px;
   }
 }
 
