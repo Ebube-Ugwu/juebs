@@ -266,18 +266,16 @@ template {
   font-family: "inter";
   src: url("../fonts/inter/Inter-VariableFont.ttf");
 }
-@font-face {
-  font-family: "montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
-}
-@font-face {
-  font-family: "montserrat-bold";
-  src: url("fonts/Montserrat/Montserrat-Bold.ttf");
-}
 html {
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow: auto;
   font-size: 62.5%;
   box-sizing: border-box;
+}
+
+html:focus-withing {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -286,6 +284,7 @@ body {
   background-size: 70px;
   font-family: "inter", Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
+  overflow-x: hidden;
   line-height: 1.5;
   margin: 0;
 }
@@ -448,24 +447,37 @@ a {
 }
 
 .hero-block--main .hero-block__header {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #fdffde;
   z-index: 2;
 }
 
 .hero-block--main .hero-block__subheader {
   color: #ffec82;
-  font-size: 2.1rem;
-  opacity: 0.7;
+  font-size: 2.6rem;
+  opacity: 0.8;
   z-index: 1;
 }
 
 .hero-block--main {
-  background-image: url("../images/man-checking-engine.jpg");
-  background-size: cover;
   position: relative;
   color: white;
   width: 90%;
+}
+
+.hero-block--home {
+  background-image: url("../images/man-checking-engine.jpg");
+  background-size: cover;
+}
+
+.hero-block--about {
+  background-image: url("../images/IMG-20241210-WA0000(1).jpg");
+  background-size: 500px 330px;
+}
+
+.hero-block--services {
+  background-image: url("../images/men-at-work.jpg");
+  background-size: 500px 400px;
 }
 
 .hero-block--main::before {
@@ -475,7 +487,7 @@ a {
   width: 100%;
   height: 100%;
   background: black;
-  opacity: 0.4;
+  opacity: 0.5;
   transition: opacity 0.4s ease;
 }
 
@@ -576,6 +588,9 @@ a {
   }
   .hero-block--main {
     min-height: 70vh;
+  }
+  .hero-block--services {
+    background-size: 100% 150%;
   }
 }
 .media__container {

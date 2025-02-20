@@ -27,6 +27,8 @@ function initializeCopyright() {
 	copyright.innerText = copyright.innerText + currentYear;
 }
 
+
+
 document.addEventListener("DOMContentLoaded", () => {
 	initializeCollapsibles();
 	initializeCopyright();
