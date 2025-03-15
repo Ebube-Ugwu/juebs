@@ -356,20 +356,20 @@ a {
 }
 
 .hero-block__subheader {
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 
 .hero-block__body {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 
 @media screen and (min-width: 1024px) {
 	.hero-block__body {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 
 	.hero-block__header {
-		font-size: 2.4rem;
+		font-size: 2.6rem;
 	}
 
 	.hero-block--main .hero-block__header {
@@ -377,7 +377,7 @@ a {
 	}
 
 	.hero-block--main .hero-block__subheader {
-		font-size: 2.4rem;
+		font-size: 2.6rem;
 	}
 
 	.hero-block--main {
