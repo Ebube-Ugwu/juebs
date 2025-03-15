@@ -385,7 +385,7 @@ a {
 	}
 
 	.hero-block--services {
-		background-size: 100% 150%;
+		background-size: 101% 150%;
 	}
 }
 
@@ -393,7 +393,8 @@ a {
 // Media
 .media__container {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
+	flex-wrap: wrap;
 	align-items: start;
 	padding: .5rem 1.5rem;
 }
@@ -824,7 +825,7 @@ a {
 .contact-text {
 	color: $color-primary;
 	text-transform: capitalize;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	opacity: .8;
 	margin-left: 10px ;
 	margin-top: 2rem;
@@ -840,6 +841,10 @@ a {
 	width: 15px;
 	height: 15px;
 	margin-top: 2rem;
+}
+
+.contact-info .flex--column {
+    align-items: start;
 }
 
 @media screen and (min-width: 1024px) {
@@ -858,4 +863,14 @@ a {
 		height: 45px;
 	}
 	
+}
+
+.map-link {
+    display: block;
+    width: 50%;
+}
+
+.map-link img {
+    display: block;
+    width: 100%;
 }
